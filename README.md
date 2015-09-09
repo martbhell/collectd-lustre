@@ -11,3 +11,9 @@ LoadPlugin exec
         Exec "nagios" "/usr/local/bin/json-stats-wrapper-collectd.sh"
 </Plugin>
 </pre>
+
+# Room for improvements:
+
+## lctl get_param - better than catting /proc
+
+## job stats?
